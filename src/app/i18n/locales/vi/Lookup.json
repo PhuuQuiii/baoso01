@@ -1,0 +1,35 @@
+{
+    "chuyen_bay": {
+      "book": "Đặt Vé",
+      "khoi_hanh": {
+        "ngay": "Thứ tư, ngày 18 tháng 8",
+        "thoi_gian": "18:25",
+        "thanh_pho": "Harare",
+        "thanh_pho_short_name": "HRE",
+        "quoc_gia": "Zimbabwe"
+      },
+      "den": {
+        "thoi_gian": "19:25",
+        "thanh_pho": "Lusaka",
+        "thanh_pho_short_name": "LUN",
+        "quoc_gia": "Zambia"
+      },
+      "hang_hang_khong": {
+        "ten": "Qatar Airways",
+        "ma_so_chuyen_bay": "QR1456"
+      },
+      "chi_tiet_them": {
+        "hang_ghe": "Thương gia",
+        "muc_luong_hanh_ly": "2*23kg (2 kiện ký gửi, mỗi kiện 23kg)",
+        "lua_chon_ve": {
+          "Ve_tieu_chuan": {
+            "gia": "404.73 USD/người lớn"
+          },
+          "Ve_linh_hoat": {
+            "gia": "605.43 USD/người lớn"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,34 @@
+{
+  "chuyen_bay": {
+    "book": "Book",
+    "khoi_hanh": {
+      "ngay": "Wednesday, August 18",
+      "thoi_gian": "18:25",
+      "thanh_pho": "Harare",
+      "thanh_pho_short_name": "HRE",
+      "quoc_gia": "Zimbabwe"
+    },
+    "den": {
+      "thoi_gian": "19:25",
+      "thanh_pho": "Lusaka",
+      "thanh_pho_short_name": "LUN",
+      "quoc_gia": "Zambia"
+    },
+    "hang_hang_khong": {
+      "ten": "Qatar Airways",
+      "ma_so_chuyen_bay": "QR1456"
+    },
+    "chi_tiet_them": {
+      "hang_ghe": "Business",
+      "muc_luong_hanh_ly": "2*23kg (2 consigned bales, 23kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "404.73 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "605.43 USD/adult"
+        }
+      }
+    }
+  }
+}
