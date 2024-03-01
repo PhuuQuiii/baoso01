@@ -1,5 +1,5 @@
 // import { Inter } from "next/font/google";
-// import "./globals.css";
+import "./globals.css";
 
 import { dir } from 'i18next'
 import { languages } from '../i18n/settings'
