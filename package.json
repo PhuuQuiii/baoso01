@@ -15,9 +15,12 @@
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^14.0.5"
+    "react-i18next": "^14.0.5",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/ws": "^8.5.10",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
