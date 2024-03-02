@@ -1,6 +1,10 @@
 {
   "chuyen_bay": {
+    "DEPARTURE": "DEPARTURE",
     "book": "Book",
+    "ticket": "Standard Ticket",
+    "Flexible_Ticket": "Flexible Ticket",
+    "Price_per_adult": "Price per adult",
     "khoi_hanh": {
       "ngay": "Wednesday, August 18",
       "thoi_gian": "18:25",

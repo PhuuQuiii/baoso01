@@ -27,3 +27,16 @@ export default function Page({ params: { lng } }) {
     </>
   );
 }
+
+// import Link from 'next/link'
+
+// export default function Page({ params: { lng } }) {
+//   return (
+//     <>
+//       <h1>Hi there!</h1>
+//       <Link href={`/${lng}/Home`}>
+//         Home
+//       </Link>
+//     </>
+//   )
+// }
