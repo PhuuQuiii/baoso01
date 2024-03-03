@@ -1,6 +1,11 @@
 [
   {
     "chuyen_bay": {
+      "DEPARTURE":"KHỞI HÀNH",
+      "book": "Đặt Vé",
+      "Standard_Ticket": "Vé Tiêu Chuẩn",
+      "Flexible Ticket":"Vé Linh Hoạt",
+      "Price_per_adult":"Giá cho mỗi người lớn",
       "khoi_hanh": {
         "ngay": "Thứ tư, ngày 18 tháng 8",
         "thoi_gian": "18:25",
