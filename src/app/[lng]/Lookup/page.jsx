@@ -3,7 +3,7 @@ import { useTranslation } from "../../i18n";
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng, "Lookup");
-  // console.log(lng)
+  console.log([t])
   return (
     <div className="p-10">
       <div className="max-w-full  bg-white flex flex-col rounded overflow-hidden shadow-lg">

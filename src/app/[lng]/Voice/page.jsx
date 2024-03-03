@@ -1,7 +1,6 @@
 
 "use client";
 import React, { useState, useEffect } from "react";
-
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -13,28 +12,28 @@ const Page = ({ params: { lng } }) => {
   const [answerText, setAnswerText] = useState("");
   const [socket, setSocket] = useState(null); // State for WebSocket
 
-  if (!canListening){
-    var url= "/vi/"; 
-    window.location = url; 
+  if (!canListening) {
+    var url = "/vi/";
+    window.location = url;
   }
 
   useEffect(() => {
-    const ws = new WebSocket("ws://localhost:8080");
+    const ws = new WebSocket("ws://192.168.2.46:8080");
     // Establish WebSocket connection
     setSocket(ws);
-  
+
     ws.onopen = () => {
       console.log("WebSocket connection opened");
     };
-  
+
     ws.onclose = (event) => {
       console.log("WebSocket connection closed", event);
     };
-  
+
     ws.onerror = (error) => {
       console.error("WebSocket error", error);
     };
-  
+
     return () => {
       if (ws.readyState !== ws.CLOSED) {
         ws.close();
@@ -56,7 +55,7 @@ const Page = ({ params: { lng } }) => {
       const transcript = event.results[current][0].transcript;
       setSpokenText(transcript);
       console.log(socket.readyState)
-      
+
       if (socket) {
         socket.send(JSON.stringify({ transcript, lng }));
       } else {
@@ -75,7 +74,7 @@ const Page = ({ params: { lng } }) => {
       socket.onmessage = (event) => {
         const data = JSON.parse(event.data);
         var answerMessage = data.message
-        if ((answerMessage === "Tạm biệt quý khách hàng.") || (answerMessage === "Goodbye to our valued customers.")){
+        if ((answerMessage === "Tạm biệt quý khách hàng.") || (answerMessage === "Goodbye to our valued customers.")) {
           setCanListening(false)
         }
         setAnswerText("\"" + answerMessage + "\"")
@@ -97,9 +96,8 @@ const Page = ({ params: { lng } }) => {
       <p className="text-4xl font-bold mb-8">{answerText}</p>
       <button
         onClick={toggleListening}
-        className={`rounded-full p-4 mb-12 ${
-          isListening ? "bg-blue-500" : "bg-white"
-        }`}
+        className={`rounded-full p-4 mb-12 ${isListening ? "bg-blue-500" : "bg-white"
+          }`}
         style={{ marginTop: "calc(100vh / 3)" }}
       >
         <img
