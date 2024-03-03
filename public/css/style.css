@@ -1,0 +1,14 @@
+body {
+    background-color: #E7EDFC;
+}
+.maps {
+    position: absolute;
+    padding: 0;
+    display: block;
+}
+.ddcolor{
+    fill: none;
+}
+.ddcolorbf{
+    fill:aqua;
+}

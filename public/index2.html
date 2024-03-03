@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />            
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/am=wA/d=0/rs=AN8SPfq5gedF4FIOWZgYyMCNZA5tU966ig/m=el_main_css">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Map ga di</title>
+</head>
+<body>
+    <header class="btn-group">
+        <div class="dropdown" style="padding: 0;">
+          <button onclick="myFunction()" class="dropbtn" style="margin-right: 30px;">
+              <i class="fa fa-bars"></i>
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+              <a href="#" id="ATM">ATM</a>
+              <a href="#" id="Tolet-TN">Nhà vệ sinh (khu nội địa)</a>
+              <a href="#" id="Tolet-QT">Nhà vệ sinh (khu quốc tế)</a>
+              <a href="#" id="SCC">Quầy kiểm tra an ninh</a>
+              <a href="#" id="ECC">Quầy thủ tục xuất cảnh</a>
+              <a href="#" id="Customs">Hải quan</a>
+              <a href="#" id="Restaurant">Nhà hàng</a>
+              <a href="#" id="LuggageTN">Quầy lấy hành lí (nội đia)</a>
+              <a href="#" id="LuggageQT">Quầy lấy hành lí (Quốc tế)</a>
+              <a href="#" id="ElevatorSC">Thang máy (sảnh chính)</a>
+              <a href="#" id="Stair1">Thang bộ 1</a>
+              <a href="#" id="Stair2">Thang bộ 2</a>
+            </div>
+        </div>
+        <div class="container" style="padding: 0px">
+        <a href="index.html">
+            <button class="dropbtn" >
+                    <i class='fa-solid fa-1' style="color: #ffffff;"></i>
+            </button>
+        </a>
+          </div>
+    </header>
+    <div >
+        <svg version="1.1" viewBox="0 0 1860 945" xmlns="http://www.w3.org/2000/svg" style="overflow: auto;">
+        <path d="M1,37 H82 V136.5 
+                H38 V292
+                H77 V248.5
+                H240 V37
+                H546 V521
+                H1 V493
+                H85 V491
+                H1 V37" fill="#FFFFFF" stroke="none"  stroke-width="1"></path>
+        <path d="M1859,35 H1780.5 V136.5 
+                H1825 V290.5
+                H1789 V248.5
+                H1712 V326
+                H1628 V323
+                H1709 V250
+                H1625 V35
+                H1323 V521
+                H1859 V496
+                H1782 V493
+                H1859 V35" fill="#FFFFFF" stroke="none"  stroke-width="1"></path>
+        <path d="M1321,298 H1172.5 V315.5 
+                H1046 V347
+                H1086 V349
+                H1046 V574
+                H1104.5 V567
+                H1107.5 V574
+                H1115.5 V567
+                H1118.5 V574
+                H1133.5 V567
+                H1136.5 V574
+                H1144.5 V567
+                H1147.5 V574
+                H1321 V298  " fill="#FFFFFF" stroke="none"  stroke-width="1"></path>
+        <path d="M548,298 H693 V315.5 
+                H821 V347
+                H781 V349
+                H821 V574
+                H762.5 V567
+                H759.5 V574
+                H751.5 V567
+                H748.5 V574
+                H732.5 V567
+                H729.5 V574
+                H721.5 V567
+                H718.5 V574
+                H548 V298" fill="#FFFFFF" stroke="none"  stroke-width="1"></path>
+        <path d="M548,577 H718.5 V584 
+                H721.5 V577
+                H729.5 V584
+                H732.5 V577
+                H748.5 V584
+                H751.5 V577
+                H759.5 V584
+                H762.5 V577
+                H821 V620
+                H1046 V577
+                H1104.5 V584
+                H1107.5 V577
+                H1115.5 V584
+                H1118.5 V577
+                H1133.5 V584
+                H1136.5 V577
+                H1144.5 V584
+                H1147.5 V577
+                H1321 V612
+                H1340 V913
+                H1280.5 V900
+                H1254 V913
+                H1227 V900
+                H1201 V913
+                H662 V900
+                H636 V913
+                H610 V900
+                H585 V913
+                H530 V611
+                H548 V577
+                " fill="#FFFFFF" stroke="none" stroke-width="1"></path>
+        <path d="M597,887 605,926.5 599,926.5 599,943 594.6,943 594.6,926.5 588.5,926.5
+                " fill="red" stroke="none" stroke-width="1"></path>
+        <path d="M649.5,943 658,906 652,906 652,887 647.5,887 647.5,906 640,906
+                " fill="red" stroke="none" stroke-width="1"></path>
+        <path d="M1267,887 1275,926.5 1269.5,926.5 1269.5,943 1265.5,943 1265.5,926.5 1259.5,926.5
+                " fill="red" stroke="none" stroke-width="1"></path>
+        <path d="M1214.5,943 1223.5,906 1217,906 1217,887 1212,887 1212,906 1206,906 
+                " fill="red" stroke="none" stroke-width="1"></path>
+        <text x="610" y="500" style="font: 22px Verdana, Helvetica, Arial, sans-serif;">
+            <tspan font-weight="bold" fill="#BFCFDF">Khu quốc tế</tspan>
+        </text>
+        <text x="1090" y="500" style="font: 22px Verdana, Helvetica, Arial, sans-serif;">
+            <tspan font-weight="bold" fill="#BFCFDF">Khu nội địa</tspan>
+        </text>
+      
+        <!--KHU VUC-->
+       
+        <!--red-->
+        <rect x="154.5" y="36.5" width="61" height="44" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="154.5" y="81.5" width="61" height="49" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="154.5" y="132" width="83.5" height="57.5" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="216.5" y="36.5" width="21.5" height="94" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="1" y="523" width="38" height="86" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="40" y="523" width="46" height="86" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="233" y="523" width="83.5" height="86" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="572" y="247" width="51" height="48.5" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>     
+        <rect x="624" y="247" width="47.5" height="48.5" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="1786" y="524" width="39.8" height="85" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+        <rect x="1827.5" y="524" width="31.5" height="85" stroke="transparent" fill="#FCE8E6" stroke-width="1"></rect>
+
+        <!--green-->
+        <rect id="IRestaurant1" x="822.5" y="350.5" width="220.5" height="267" stroke="transparent" fill="#00FF00" stroke-width="1"></rect>
+        <rect x="154.5" y="191.3" width="83.5" height="54.7" stroke="transparent" fill="Moccasin" stroke-width="1"></rect>
+        <rect x="219.5" y="299.5" width="32" height="17.5" stroke="transparent" fill="Moccasin" stroke-width="1"></rect>
+        <rect x="219.5" y="367.5" width="32" height="17.5" stroke="transparent" fill="Moccasin" stroke-width="1"></rect>
+        <rect x="219.5" y="412" width="32" height="17.5" stroke="transparent" fill="Moccasin" stroke-width="1"></rect>
+        <rect x="219.5" y="456.5" width="32" height="17.5" stroke="transparent" fill="Moccasin" stroke-width="1"></rect>
+        <path d="M1627,35 H1708.5 V247.5 H1656.5 V184 H1627" fill="Moccasin" stroke="transparent" stroke-width="1"></path>
+        <path d="M1711,35 H1779 V137 H1751 V95.5 H1711" fill="#FFFFFF" stroke="transparent" stroke-width="1"></path>
+        <path d="M83,36.5 H152 V95.5 H116 V136 H83" fill="#FFFFFF" stroke="transparent" stroke-width="1"></path>
+
+        <!--Blue-->
+        <rect id="ITolet-QT1" x="87" y="523" width="145.5" height="86" stroke="transparent" fill="#E0E5FF" stroke-width="1"></rect>
+        <rect id="ITolet-QT2" x="317.5" y="523" width="228.5" height="86" stroke="transparent" fill="#E0E5FF" stroke-width="1"></rect>
+        <rect id="ITolet-TN3" x="1627" y="186" width="27.5" height="62.5" stroke="transparent" fill="#E0E5FF" stroke-width="1"></rect>
+        <rect id="ITolet-TN1" x="1322" y="524" width="232.5" height="85" stroke="transparent" fill="#E0E5FF" stroke-width="1"></rect>
+        <rect id="ITolet-TN2" x="1556.5" y="524" width="228.5" height="85" stroke="transparent" fill="#E0E5FF" stroke-width="1"></rect>
+        <path d="M1,456 H29
+                Q40 456 40 473
+                V491 H1" 
+        fill="#E0E5FF" stroke="transparent" stroke-width="1"></path>
+        <path d="M1859,456 H1845
+                Q1823 456 1823 467
+                V494 H1859" 
+        fill="#E0E5FF" stroke="transparent" stroke-width="1"></path>
+        <path d="M547,247 H570.5
+                V295 H560
+                Q547 295 547 282
+                V247 H547" 
+        fill="#E0E5FF" stroke="transparent" stroke-width="1"></path>
+        <path d="M1290,243.5 H1320.5
+            V285
+            Q1320.5 295 1310.5 295
+            H1292
+            V243.5 H1292" 
+        fill="#E0E5FF" stroke="transparent" stroke-width="1"></path>
+        <!--thang may,cuon,bo-->
+    
+        <path d="M40,140.5 H72.5 V287 H40 " fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        <rect x="91.5" y="140.5" width="23" height="30" stroke="pink" fill="pink" stroke-width="5"></rect>      
+        <path d="M118,99.5 H150.5 V243 H118" fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        <path d="M1791,141.5 H1820.5 V286 H1791" fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        <rect x="1753" y="141.5" width="20" height="30" stroke="pink" fill="pink" stroke-width="5"></rect>      
+        <path d="M1711,100 H1746.5 V193 H1711 " fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        <path id="IStair1" d="M755,787.5 H848 V836.5 H755" fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        <rect id="IElavatorSC" x="907.5" y="762.5" width="49" height="55" stroke="none" fill="pink" stroke-width="1"></rect>      
+        <path id="IStair2" d="M1014.5,787.5 H1107 V836.5 H1014.5" fill="#F1F3F4" stroke="#F1F3F4" stroke-width="5"></path>
+        
+        <!--lấy hành lí-->
+        <path d="M401.5,3 H520
+                Q530 3 534 20
+                V35 H401.5
+                V20
+                Q401.5 3 415.5 3" 
+        fill="Moccasin" stroke="transparent" stroke-width="1"></path>
+        <path d="M401.5,37 H534 V45
+                Q534 65 514 65
+                 H508.5
+                Q489.5 65 489.5 85
+                 V226.5
+                Q489.5 246.5 472.5 246.5
+                H460
+                Q445 246.5 445 226.5  
+                V85
+                Q445 65 425 65
+                H421.5
+                Q401.5 65 401.5 45
+                H401.5" fill="Moccasin" stroke="transparent" stroke-width="1"></path>
+        <path d="M1330,2 H1442.5
+                Q1462.5 0 1462.5 20
+                V31.5 H1330
+                V20
+                Q1330 2 1344 2" 
+        fill="Moccasin" stroke="transparent" stroke-width="1"></path>
+        <path d="M1330,34 H1462.5 V44
+                Q1462.5 64 1442.5 64  
+                H1440.5
+                Q1418.5 64 1418.5 86
+                V225.5
+                Q1418.5 245.5 1403.5 245.5
+                H1389
+                Q1374 245.5 1374 225.5
+                V84
+                Q1374 64 1354 64
+                H1350
+                Q1330 64 1330 44" fill="Moccasin" stroke="transparent" stroke-width="1"></path>
+        <!--Icon gate-->
+       
+
+        <!--Icon stains-->
+        <image href="icon/escalator.png" x="34" y="215" height="50px" width="50px"></image>
+        <image href="icon/escalator.png" x="110" y="95" height="50px" width="50px"></image>
+        <image href="icon/escalator.png" x="1782" y="225" height="50px" width="50px"></image>
+        <image href="icon/escalator.png" x="1706" y="90" height="50px" width="50px"></image>
+        <image href="icon/elevator.png" x="1740" y="140" height="50px" width="50px"></image>
+        <image href="icon/elevator.png" x="77" y="138" height="50px" width="50px"></image>
+        <image id="ICONIElevatorSC" href="icon/elevator.png" x="893" y="760" height="80px" width="80px"></image>
+        <image id="ICONIStair1" href="icon/going-up.png" x="774" y="785" height="50px" width="50px"></image>
+        <image id="ICONIStair2" href="icon/going-up.png" x="1035" y="785" height="50px" width="50px"></image>
+
+        <!--Icon toilet & smoking-->
+       
+        <image id="ICONIToletQT1" href="icon/toilet.png" x="141" y="543" height="50px" width="50px"></image>
+        <image id="ICONIToletQT2" href="icon/toilet.png" x="410" y="543" height="50px" width="50px"></image>
+        <image id="ICONIToletTN3" href="icon/toilet.png" x="1610" y="190" height="50px" width="50px"></image>
+        <image id="ICONIToletTN1" href="icon/toilet.png" x="1410" y="543" height="50px" width="50px"></image>
+        <image id="ICONIToletTN2" href="icon/toilet.png" x="1650" y="543" height="50px" width="50px"></image>
+
+        <!--Icon Food & Drinks-->
+       
+        <image id="ICONIRestaurant1" href="icon/dinner.png" x="870" y="550" height="60px" width="60px"></image>
+        <image id="ICONIDRestaurant1" href="icon/chocolate.png" x="935" y="544" height="60px" width="60px"></image>
+        
+        <!--Icon airport-->
+       
+        <image id="ICONISCC" href="icon/scanner.png" x="1635" y="253" height="70px" width="70px"></image>
+        <image id="ICONIECC" href="icon/checking.png" x="210" y="340" height="50px" width="50px"></image>
+        
+        <!--Icon-->
+        <image id="ICONATM" href="icon/atm.png" x="1285" y="832" height="70px" width="55px"></image>
+        <image id="ICONLuggageQT" href="icon/trolley.png" x="335" y="121" height="90px" width="90px"></image>
+        <image id="ICONLuggageTN" href="icon/trolley.png" x="1455" y="121" height="90px" width="90px"></image>
+        <image id="ICONCustoms" href="icon/customs.png" x="600" y="380" height="50px" width="50px"></image>
+
+        <!--Đường dẫn-->
+        
+        <rect id="DD1" x="703.5" y="700" height="5px" width="540px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD2" x="610" y="700" height="5px" width="93.5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD3" x="445" y="415" height="5px" width="310px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD4" x="295" y="492" height="5px" width="460px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD5" x="255" y="492" height="5px" width="500px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD6" x="200" y="492" height="5px" width="555px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD7" x="1241.5" y="590" height="5px" width="80px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD8" x="705.5" y="700" height="5px" width="303px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD9" x="705.5" y="700" height="5px" width="348px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD10" x="1104" y="415" height="5px" width="265px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD11" x="1104" y="490" height="5px" width="385px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD12" x="1104" y="490" height="5px" width="500px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD13" x="1104" y="490" height="5px" width="555px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD14" x="1104" y="490" height="5px" width="521px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD15" x="1104" y="490" height="5px" width="555px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD16" x="705.5" y="700" height="5px" width="490px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD17" x="705.5" y="700" height="5px" width="403.5px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD18" x="1550" y="95" height="5px" width="75px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD19" x="1620" y="95" height="5px" width="45px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD20" x="1620" y="330" height="5px" width="221px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD21" x="200" y="100" height="5px" width="185px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD22" x="20" y="325" height="5px" width="185px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD23" x="703.5" y="755" height="5px" width="225px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD24" x="703.5" y="755" height="5px" width="405px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD25" x="703.5" y="875" height="5px" width="45px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD45" x="703.5" y="700" height="5px" width="51.5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD46" x="70" y="325" height="5px" width="135px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD48" x="1104" y="415" height="5px" width="163px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+
+        <rect id="DD26" x="703.5" y="700" height="203px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD27" x="703.5" y="875" height="28px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD28" x="703.5" y="755" height="148px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD29" x="1103.6" y="755" height="115px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD30" x="750" y="415" height="290px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD31" x="750" y="492" height="213px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD32" x="1241.5" y="590" height="115px" width="5px" stroke="none" stroke-width="1" class="ddcolor" ></rect>
+        <rect id="DD33" x="1003.5" y="665" height="35px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD34" x="1048.5" y="619" height="81px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD35" x="1190.5" y="619" height="81px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>               
+        <rect id="DD36" x="1104" y="415" height="285px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD37" x="295" y="435" height="62px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD38" x="200" y="330" height="162px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD39" x="200" y="100" height="392px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD40" x="20" y="90" height="240px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD41" x="1262" y="300" height="120px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD42" x="1620" y="275" height="220px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD43" x="1620" y="95" height="400px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD44" x="1836" y="95" height="240px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD47" x="1104" y="490" height="215px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+        <rect id="DD49" x="1620" y="330" height="165px" width="5px" stroke="none" stroke-width="1" class="ddcolor"></rect>
+
+
+        <!--Robot-->
+        <image id="Robot" href="icon/warehouse.png" x="690" y="875" height="35px" width="35px"/>
+        </svg>
+    </div>
+</body>
+</html>
