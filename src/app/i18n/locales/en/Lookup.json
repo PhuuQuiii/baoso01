@@ -2,28 +2,57 @@
   "chuyen_bay": {
     "DEPARTURE": "DEPARTURE",
     "book": "Book",
-    "ticket": "Standard Ticket",
+    "Standard_Ticket": "Standard Ticket",
     "Flexible_Ticket": "Flexible Ticket",
     "Price_per_adult": "Price per adult",
-    "khoi_hanh": {
-      "ngay": "Wednesday, August 18",
+    "khoi_hanh_0": {
+      "ngay": "Wednesday, August 17",
+      "thoi_gian": "8:00",
+      "thanh_pho": "Harare",
+      "thanh_pho_short_name": "HRE",
+      "quoc_gia": "Zimbabwe"
+    },
+    "den_0": {
+      "thoi_gian": "11:25",
+      "thanh_pho": "Lusaka",
+      "thanh_pho_short_name": "LUN",
+      "quoc_gia": "Zambia"
+    },
+    "hang_hang_khong_0": {
+      "ten": "Qatar Airways",
+      "ma_so_chuyen_bay": "QR1456"
+    },
+    "chi_tiet_them_0": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*43kg (2 consigned bales, 23kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "404.73 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "605.43 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_1": {
+      "ngay": "Thứ tư, ngày 18 tháng 8",
       "thoi_gian": "18:25",
       "thanh_pho": "Harare",
       "thanh_pho_short_name": "HRE",
       "quoc_gia": "Zimbabwe"
     },
-    "den": {
+    "den_1": {
       "thoi_gian": "19:25",
       "thanh_pho": "Lusaka",
       "thanh_pho_short_name": "LUN",
       "quoc_gia": "Zambia"
     },
-    "hang_hang_khong": {
+    "hang_hang_khong_1": {
       "ten": "Qatar Airways",
       "ma_so_chuyen_bay": "QR1456"
     },
-    "chi_tiet_them": {
-      "hang_ghe": "Business",
+    "chi_tiet_them_1": {
+      "hang_ghe": "Thương gia",
       "muc_luong_hanh_ly": "2*23kg (2 consigned bales, 23kg each)",
       "lua_chon_ve": {
         "Ve_tieu_chuan": {
@@ -31,6 +60,789 @@
         },
         "Ve_linh_hoat": {
           "gia": "605.43 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_2": {
+      "ngay": "Thứ tư, ngày 18 tháng 8",
+      "thoi_gian": "20:25",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_2": {
+      "thoi_gian": "21:25",
+      "thanh_pho": "Lusaka",
+      "thanh_pho_short_name": "LUN",
+      "quoc_gia": "Zambia"
+    },
+    "hang_hang_khong_2": {
+      "ten": "Qatar Airways",
+      "ma_so_chuyen_bay": "QR1456"
+    },
+    "chi_tiet_them_2": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "3*23kg (2 consigned bales, 23kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "404.73 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "605.43 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_3": {
+      "ngay": "Thứ năm, ngày 19 tháng 8",
+      "thoi_gian": "19:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_3": {
+      "thoi_gian": "20:30",
+      "thanh_pho": "Nairobi",
+      "thanh_pho_short_name": "NBO",
+      "quoc_gia": "Kenya"
+    },
+    "hang_hang_khong_3": {
+      "ten": "Emirates",
+      "ma_so_chuyen_bay": "EK202"
+    },
+    "chi_tiet_them_3": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "520.15 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "750.60 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_4": {
+      "ngay": "Thứ sáu, ngày 20 tháng 8",
+      "thoi_gian": "21:15",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_4": {
+      "thoi_gian": "22:45",
+      "thanh_pho": "Addis Ababa",
+      "thanh_pho_short_name": "ADD",
+      "quoc_gia": "Ethiopia"
+    },
+    "hang_hang_khong_4": {
+      "ten": "Ethiopian Airlines",
+      "ma_so_chuyen_bay": "ET789"
+    },
+    "chi_tiet_them_4": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*25kg (1 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "490.90 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "710.25 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_5": {
+      "ngay": "Chủ nhật, ngày 20 tháng 8",
+      "thoi_gian": "23:00",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_5": {
+      "thoi_gian": "23:45",
+      "thanh_pho": "N'Djamena",
+      "thanh_pho_short_name": "NDJ",
+      "quoc_gia": "Chad"
+    },
+    "hang_hang_khong_5": {
+      "ten": "Chad Airways",
+      "ma_so_chuyen_bay": "CD678"
+    },
+    "chi_tiet_them_5": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (1 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "560.60 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "805.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_6": {
+      "ngay": "Thứ bảy, ngày 21 tháng 8",
+      "thoi_gian": "12:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_6": {
+      "thoi_gian": "14:15",
+      "thanh_pho": "Johannesburg",
+      "thanh_pho_short_name": "JNB",
+      "quoc_gia": "South Africa"
+    },
+    "hang_hang_khong_6": {
+      "ten": "South African Airways",
+      "ma_so_chuyen_bay": "SA456"
+    },
+    "chi_tiet_them_6": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*20kg (2 consigned bales, 20kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "550.50 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "800.75 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_7": {
+      "ngay": "Chủ nhật, ngày 22 tháng 8",
+      "thoi_gian": "16:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_7": {
+      "thoi_gian": "18:00",
+      "thanh_pho": "Windhoek",
+      "thanh_pho_short_name": "WDH",
+      "quoc_gia": "Namibia"
+    },
+    "hang_hang_khong_7": {
+      "ten": "Air Namibia",
+      "ma_so_chuyen_bay": "SW222"
+    },
+    "chi_tiet_them_7": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "480.50 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "690.20 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_8": {
+      "ngay": "Thứ hai, ngày 23 tháng 8",
+      "thoi_gian": "08:00",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_8": {
+      "thoi_gian": "09:30",
+      "thanh_pho": "Gaborone",
+      "thanh_pho_short_name": "GBE",
+      "quoc_gia": "Botswana"
+    },
+    "hang_hang_khong_8": {
+      "ten": "Botswana Airways",
+      "ma_so_chuyen_bay": "BA111"
+    },
+    "chi_tiet_them_8": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "540.80 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "780.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_9": {
+      "ngay": "Thứ ba, ngày 24 tháng 8",
+      "thoi_gian": "14:20",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_9": {
+      "thoi_gian": "15:50",
+      "thanh_pho": "Luanda",
+      "thanh_pho_short_name": "LAD",
+      "quoc_gia": "Angola"
+    },
+    "hang_hang_khong_9": {
+      "ten": "TAAG Angola Airlines",
+      "ma_so_chuyen_bay": "DT701"
+    },
+    "chi_tiet_them_9": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "495.30 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "720.45 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_10": {
+      "ngay": "Thứ tư, ngày 25 tháng 8",
+      "thoi_gian": "20:10",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_10": {
+      "thoi_gian": "21:40",
+      "thanh_pho": "Maputo",
+      "thanh_pho_short_name": "MPM",
+      "quoc_gia": "Mozambique"
+    },
+    "hang_hang_khong_10": {
+      "ten": "LAM Mozambique Airlines",
+      "ma_so_chuyen_bay": "TM432"
+    },
+    "chi_tiet_them_10": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*20kg (2 consigned bales, 20kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "535.60 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "780.20 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_11": {
+      "ngay": "Thứ năm, ngày 26 tháng 8",
+      "thoi_gian": "12:15",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_11": {
+      "thoi_gian": "13:45",
+      "thanh_pho": "Dar es Salaam",
+      "thanh_pho_short_name": "DAR",
+      "quoc_gia": "Tanzania"
+    },
+    "hang_hang_khong_11": {
+      "ten": "Air Tanzania",
+      "ma_so_chuyen_bay": "TC567"
+    },
+    "chi_tiet_them_11": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "550.90 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "790.10 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_12": {
+      "ngay": "Thứ sáu, ngày 27 tháng 8",
+      "thoi_gian": "18:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_12": {
+      "thoi_gian": "20:15",
+      "thanh_pho": "Antananarivo",
+      "thanh_pho_short_name": "TNR",
+      "quoc_gia": "Madagascar"
+    },
+    "hang_hang_khong_12": {
+      "ten": "Air Madagascar",
+      "ma_so_chuyen_bay": "MD876"
+    },
+    "chi_tiet_them_12": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "500.25 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "730.40 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_13": {
+      "ngay": "Thứ bảy, ngày 28 tháng 8",
+      "thoi_gian": "10:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_13": {
+      "thoi_gian": "12:00",
+      "thanh_pho": "Kigali",
+      "thanh_pho_short_name": "KGL",
+      "quoc_gia": "Rwanda"
+    },
+    "hang_hang_khong_13": {
+      "ten": "RwandAir",
+      "ma_so_chuyen_bay": "WB321"
+    },
+    "chi_tiet_them_13": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*25kg (1 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "480.80 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "700.15 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_14": {
+      "ngay": "Chủ nhật, ngày 29 tháng 8",
+      "thoi_gian": "16:15",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_14": {
+      "thoi_gian": "17:45",
+      "thanh_pho": "Maseru",
+      "thanh_pho_short_name": "MSU",
+      "quoc_gia": "Lesotho"
+    },
+    "hang_hang_khong_14": {
+      "ten": "Lesotho Airways",
+      "ma_so_chuyen_bay": "LT432"
+    },
+    "chi_tiet_them_14": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*20kg (2 consigned bales, 20kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "540.60 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "780.80 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_15": {
+      "ngay": "Thứ hai, ngày 30 tháng 8",
+      "thoi_gian": "08:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_15": {
+      "thoi_gian": "10:15",
+      "thanh_pho": "Victoria",
+      "thanh_pho_short_name": "SEZ",
+      "quoc_gia": "Seychelles"
+    },
+    "hang_hang_khong_15": {
+      "ten": "Air Seychelles",
+      "ma_so_chuyen_bay": "HM543"
+    },
+    "chi_tiet_them_15": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "520.40 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "750.70 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_16": {
+      "ngay": "Thứ ba, ngày 31 tháng 8",
+      "thoi_gian": "14:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_16": {
+      "thoi_gian": "16:00",
+      "thanh_pho": "Port Louis",
+      "thanh_pho_short_name": "MRU",
+      "quoc_gia": "Mauritius"
+    },
+    "hang_hang_khong_16": {
+      "ten": "Air Mauritius",
+      "ma_so_chuyen_bay": "MK789"
+    },
+    "chi_tiet_them_16": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "550.90 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "790.15 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_17": {
+      "ngay": "Thứ tư, ngày 1 tháng 9",
+      "thoi_gian": "17:00",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_17": {
+      "thoi_gian": "18:30",
+      "thanh_pho": "Mahe",
+      "thanh_pho_short_name": "SEZ",
+      "quoc_gia": "Seychelles"
+    },
+    "hang_hang_khong_17": {
+      "ten": "Seychelles International Airways",
+      "ma_so_chuyen_bay": "SI345"
+    },
+    "chi_tiet_them_17": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "525.60 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "760.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_18": {
+      "ngay": "Thứ năm, ngày 2 tháng 9",
+      "thoi_gian": "11:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_18": {
+      "thoi_gian": "13:15",
+      "thanh_pho": "Antananarivo",
+      "thanh_pho_short_name": "`TNR",
+      "quoc_gia": "Madagascar"
+    },
+    "hang_hang_khong_18": {
+      "ten": "Air Madagascar",
+      "ma_so_chuyen_bay": "MD789"
+    },
+    "chi_tiet_them_18": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*20kg (2 consigned bales, 20kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "545.20 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "785.50 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_19": {
+      "ngay": "Thứ bảy, ngày 2 tháng 9",
+      "thoi_gian": "18:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_19": {
+      "thoi_gian": "20:00",
+      "thanh_pho": "Abidjan",
+      "thanh_pho_short_name": "ABJ",
+      "quoc_gia": "Ivory Coast"
+    },
+    "hang_hang_khong_19": {
+      "ten": "Ivory Coast Airways",
+      "ma_so_chuyen_bay": "IC345"
+    },
+    "chi_tiet_them_19": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "530.40 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "765.70 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_20": {
+      "ngay": "Thứ sáu, ngày 3 tháng 9",
+      "thoi_gian": "19:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_20": {
+      "thoi_gian": "21:00",
+      "thanh_pho": "Harare",
+      "thanh_pho_short_name": "HRE",
+      "quoc_gia": "Zimbabwe"
+    },
+    "hang_hang_khong_20": {
+      "ten": "Air Zimbabwe",
+      "ma_so_chuyen_bay": "AZ456"
+    },
+    "chi_tiet_them_20": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "510.80 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "740.10 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_21": {
+      "ngay": "Thứ bảy, ngày 4 tháng 9",
+      "thoi_gian": "14:15",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_21": {
+      "thoi_gian": "15:45",
+      "thanh_pho": "Luanda",
+      "thanh_pho_short_name": "LAD",
+      "quoc_gia": "Angola"
+    },
+    "hang_hang_khong_21": {
+      "ten": "TAAG Angola Airlines",
+      "ma_so_chuyen_bay": "DT701"
+    },
+    "chi_tiet_them_21": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "550.90 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "790.15 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_22": {
+      "ngay": "Thứ hai, ngày 4 tháng 9",
+      "thoi_gian": "17:00",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_22": {
+      "thoi_gian": "19:30",
+      "thanh_pho": "Niamey",
+      "thanh_pho_short_name": "NIM",
+      "quoc_gia": "Niger"
+    },
+    "hang_hang_khong_22": {
+      "ten": "Niger Air",
+      "ma_so_chuyen_bay": "NA345"
+    },
+    "chi_tiet_them_22": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "520.70 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "750.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_23": {
+      "ngay": "Chủ nhật, ngày 5 tháng 9",
+      "thoi_gian": "10:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_23": {
+      "thoi_gian": "12:15",
+      "thanh_pho": "Nairobi",
+      "thanh_pho_short_name": "NBO",
+      "quoc_gia": "Kenya"
+    },
+    "hang_hang_khong_23": {
+      "ten": "Kenya Airways",
+      "ma_so_chuyen_bay": "KQ567"
+    },
+    "chi_tiet_them_23": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "530.40 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "765.70 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_24": {
+      "ngay": "Thứ hai, ngày 6 tháng 9",
+      "thoi_gian": "18:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_24": {
+      "thoi_gian": "20:00",
+      "thanh_pho": "Lusaka",
+      "thanh_pho_short_name": "LUN",
+      "quoc_gia": "Zambia"
+    },
+    "hang_hang_khong_24": {
+      "ten": "Zambia Airways",
+      "ma_so_chuyen_bay": "ZA432"
+    },
+    "chi_tiet_them_24": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "560.90 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "805.20 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_25": {
+      "ngay": "Thứ ba, ngày 7 tháng 9",
+      "thoi_gian": "14:15",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_25": {
+      "thoi_gian": "15:45",
+      "thanh_pho": "Windhoek",
+      "thanh_pho_short_name": "WDH",
+      "quoc_gia": "Namibia"
+    },
+    "hang_hang_khong_25": {
+      "ten": "Namibia Air",
+      "ma_so_chuyen_bay": "NA678"
+    },
+    "chi_tiet_them_25": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "540.50 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "780.80 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_26": {
+      "ngay": "Thứ tư, ngày 8 tháng 9",
+      "thoi_gian": "20:30",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_26": {
+      "thoi_gian": "22:00",
+      "thanh_pho": "Gaborone",
+      "thanh_pho_short_name": "GBE",
+      "quoc_gia": "Botswana"
+    },
+    "hang_hang_khong_26": {
+      "ten": "Botswana Airways",
+      "ma_so_chuyen_bay": "BA789"
+    },
+    "chi_tiet_them_26": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "560.60 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "805.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_27": {
+      "ngay": "Thứ năm, ngày 9 tháng 9",
+      "thoi_gian": "09:00",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_27": {
+      "thoi_gian": "10:30",
+      "thanh_pho": "Bujumbura",
+      "thanh_pho_short_name": "BJM",
+      "quoc_gia": "Burundi"
+    },
+    "hang_hang_khong_27": {
+      "ten": "Burundi Air",
+      "ma_so_chuyen_bay": "BU456"
+    },
+    "chi_tiet_them_27": {
+      "hang_ghe": "Phổ thông",
+      "muc_luong_hanh_ly": "1*30kg (1 consigned bales, 30kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "520.70 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "750.90 USD/adult"
+        }
+      }
+    },
+    "khoi_hanh_28": {
+      "ngay": "Thứ sáu, ngày 10 tháng 9",
+      "thoi_gian": "16:45",
+      "thanh_pho": "Ho Chi Minh City",
+      "thanh_pho_short_name": "SGN",
+      "quoc_gia": "Vietnam"
+    },
+    "den_28": {
+      "thoi_gian": "18:15",
+      "thanh_pho": "Libreville",
+      "thanh_pho_short_name": "LBV",
+      "quoc_gia": "Gabon"
+    },
+    "hang_hang_khong_28": {
+      "ten": "Gabon Airlines",
+      "ma_so_chuyen_bay": "GA567"
+    },
+    "chi_tiet_them_28": {
+      "hang_ghe": "Thương gia",
+      "muc_luong_hanh_ly": "2*25kg (2 consigned bales, 25kg each)",
+      "lua_chon_ve": {
+        "Ve_tieu_chuan": {
+          "gia": "550.80 USD/adult"
+        },
+        "Ve_linh_hoat": {
+          "gia": "790.10 USD/adult"
         }
       }
     }
