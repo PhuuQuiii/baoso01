@@ -18,7 +18,7 @@ const Page = ({ params: { lng } }) => {
   }
 
   useEffect(() => {
-    const ws = new WebSocket("wss://192.168.0.77:8080");
+    const ws = new WebSocket("ws://localhost:8080");
     // Establish WebSocket connection
     setSocket(ws);
 
@@ -74,6 +74,13 @@ const Page = ({ params: { lng } }) => {
       socket.onmessage = (event) => {
         const data = JSON.parse(event.data);
         var answerMessage = data.message
+        const utterance = new SpeechSynthesisUtterance(answerMessage);
+
+        const isVietnamese = /[\p{Script=Latin} \p{Mark}]/u.test(answerText);
+
+        utterance.lang = 'vi-VN';
+
+        window.speechSynthesis.speak(utterance);
         if ((answerMessage === "Tạm biệt quý khách hàng.") || (answerMessage === "Goodbye to our valued customers.")) {
           setCanListening(false)
         }
