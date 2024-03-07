@@ -69,6 +69,7 @@ const Page = ({ params: { lng } }) => {
 
       if (socket) {
         socket.send(JSON.stringify({ transcript, lng }));
+        console.log({ transcript, lng })
       } else {
         console.error("WebSocket connection is not open");
       }
@@ -101,6 +102,12 @@ const Page = ({ params: { lng } }) => {
         else if (answerMessage.includes("hiện trên bản đồ.") || answerMessage.includes("shown on the map.")){
           setscreenLocation(3)
         }
+        // const utterance = new SpeechSynthesisUtterance(answerMessage);
+
+        // const isVietnamese = /[\p{Script=Latin} \p{Mark}]/u.test(answerText);
+        // utterance.lang = 'vi-VN';
+        
+        // window.speechSynthesis.speak(utterance);
         setAnswerText("\"" + answerMessage + "\"")
       };
     }

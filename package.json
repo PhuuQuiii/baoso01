@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --experimental-https",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,6 +19,8 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@swc/cli": "^0.3.10",
+    "@swc/core": "^1.4.5",
     "@types/react": "^18.2.61",
     "@types/ws": "^8.5.10",
     "autoprefixer": "^10.0.1",
