@@ -1,9 +1,22 @@
 import React from "react";
 import { useTranslation } from "../../i18n";
+// const speakAnswer = new SpeechSynthesisUtterance();
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng, "Lookup");
   const contentArray = [];
+
+  // if (lng === "vi"){ 
+  //   speakAnswer.lang = "vi-VN";
+  //   speakAnswer.text = "Vui lòng đến quầy dịch vụ gần nhất cung cấp thông tin để đặt chuyến bay này.";
+  // }
+  // else if (lng === "en"){
+  //   speakAnswer.lang = "en-US";
+  //   speakAnswer.text = "Please go to the nearest service counter to provide information to book this flight.";
+  // }
+
+  // speechSynthesis.speak(speakAnswer); 
+  
   for (let i = 0; i < 29; i++) {
     // const cbkhoiHanhThoiGian = "chuyen_bay.khoi_hanh_${i}.thoi_gian";
     // const khoiHanhThoiGian = t(cbkhoiHanhThoiGian);

@@ -1,9 +1,12 @@
 
   $(document).ready(function(){
+    console.log("Helo")
+
     $("#Checkin-TN").click(function(){
       $("#ICheckin-TN").css("fill", "#5e76f2");
       $("#ICheckin-TN1").css("fill", "#5e76f2");
     });
+
     $("#Checkin-QT").click(function(){
       $("#ICheckin-QT").css("fill", "#5e76f2");
       $("#ICheckin-QT1").css("fill", "#5e76f2");

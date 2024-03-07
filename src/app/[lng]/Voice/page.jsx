@@ -1,22 +1,33 @@
 
 "use client";
 import React, { useState, useEffect } from "react";
+
 const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
+const speakAnswer = new SpeechSynthesisUtterance();
 
 const Page = ({ params: { lng } }) => {
-  const [canListening, setCanListening] = useState(true);
+  const [screenLocation, setscreenLocation] = useState(0);
+  //0: voice, 1: home, 2: quầy thủ tục
   const [isListening, setIsListening] = useState(false);
   const [spokenText, setSpokenText] = useState("");
   const [answerText, setAnswerText] = useState("");
   const [socket, setSocket] = useState(null); // State for WebSocket
 
-  if (!canListening) {
+  if (screenLocation === 1) {
     var url = "/vi/";
     window.location = url;
   }
-
+  else if (screenLocation === 2) {
+    var url = "/" + lng +"/Lookup";
+    window.location = url;
+  }
+  else if (screenLocation === 3) {
+    var url = "/" + lng +"/Map";
+    window.location = url;
+  }
+  
   useEffect(() => {
     const ws = new WebSocket("ws://localhost:8080");
     // Establish WebSocket connection
@@ -73,21 +84,28 @@ const Page = ({ params: { lng } }) => {
     if (socket) {
       socket.onmessage = (event) => {
         const data = JSON.parse(event.data);
-        var answerMessage = data.message
-        const utterance = new SpeechSynthesisUtterance(answerMessage);
+        var answerMessage = data.message[0]
+        var language = data.message[1]
+        if (language === "vi") speakAnswer.lang = "vi-VN";
+        else if (language === "en") speakAnswer.lang = "en-US";
+        speakAnswer.text = answerMessage;
+        speechSynthesis.speak(speakAnswer); 
 
-        const isVietnamese = /[\p{Script=Latin} \p{Mark}]/u.test(answerText);
 
-        utterance.lang = 'vi-VN';
-
-        window.speechSynthesis.speak(utterance);
-        if ((answerMessage === "Tạm biệt quý khách hàng.") || (answerMessage === "Goodbye to our valued customers.")) {
-          setCanListening(false)
+        if ((answerMessage === "Tạm biệt quý khách hàng.") || (answerMessage === "Goodbye to our valued customers.")){
+          setscreenLocation(1)
+        }
+        else if (answerMessage.includes("là danh sách chuyến bay hiện có") || answerMessage.includes("list of available flights.")){
+          setscreenLocation(2)
+        }
+        else if (answerMessage.includes("hiện trên bản đồ.") || answerMessage.includes("shown on the map.")){
+          setscreenLocation(3)
         }
         setAnswerText("\"" + answerMessage + "\"")
       };
     }
   }, [socket]);
+
 
   useEffect(() => {
     if (isListening) {
