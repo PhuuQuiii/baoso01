@@ -6,7 +6,6 @@ export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng, "Lookup");
   const contentArray = [];
 
-<<<<<<< HEAD
   
 
   // const handleLogoClick = async (e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | undefined, url: string) => {
@@ -18,19 +17,6 @@ export default async function Page({ params: { lng } }) {
   //   alert("Hello con chó Tín");
   // };
 
-=======
-  // if (lng === "vi"){ 
-  //   speakAnswer.lang = "vi-VN";
-  //   speakAnswer.text = "Vui lòng đến quầy dịch vụ gần nhất cung cấp thông tin để đặt chuyến bay này.";
-  // }
-  // else if (lng === "en"){
-  //   speakAnswer.lang = "en-US";
-  //   speakAnswer.text = "Please go to the nearest service counter to provide information to book this flight.";
-  // }
-
-  // speechSynthesis.speak(speakAnswer); 
-  
->>>>>>> e0abb5ca520eafd5f90c425aa9e48c5838d3a568
   for (let i = 0; i < 29; i++) {
     // const cbkhoiHanhThoiGian = "chuyen_bay.khoi_hanh_${i}.thoi_gian";
     // const khoiHanhThoiGian = t(cbkhoiHanhThoiGian);
