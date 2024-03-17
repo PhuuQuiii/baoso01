@@ -4,6 +4,18 @@ import { useTranslation } from "../../i18n";
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng, "Lookup");
   const contentArray = [];
+
+  
+
+  // const handleLogoClick = async (e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | undefined, url: string) => {
+  //   e?.preventDefault();
+  //   alert('clicked');
+  // };
+
+  // const handleClick = () => {
+  //   alert("Hello con chó Tín");
+  // };
+
   for (let i = 0; i < 29; i++) {
     // const cbkhoiHanhThoiGian = "chuyen_bay.khoi_hanh_${i}.thoi_gian";
     // const khoiHanhThoiGian = t(cbkhoiHanhThoiGian);
@@ -125,7 +137,10 @@ export default async function Page({ params: { lng } }) {
                   {t("chuyen_bay.Price_per_adult")}
                 </p>
               </div>
-              <button className="w-32 h-11 rounded flex border-solid border bg-white mx-2 justify-center place-items-center">
+              <button
+                className="w-32 h-11 rounded flex border-solid border bg-white mx-2 justify-center place-items-center"
+                href="" onClick={(e) => handleLogoClick(e, '/')}
+              >
                 <div className="">
                   <p>{t("chuyen_bay.book")}</p>
                 </div>
