@@ -3,5 +3,7 @@
   "VOICE": "VOICE",
   "MAP": "MAP",
   "LOOKUP": "LOOKUP",
-  "EXIT": "EXIT"
+  "EXIT": "EXIT",
+  "SOS": "SOS",
+  "THONGBAO":"SUCCESSFUL MEDICAL CALL"
 }
