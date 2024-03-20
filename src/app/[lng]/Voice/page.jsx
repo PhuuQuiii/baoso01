@@ -30,7 +30,7 @@ const Page = ({ params: { lng } }) => {
   }
 
   useEffect(() => {
-    const ws = new WebSocket("ws://localhost:8080");
+    const ws = new WebSocket("ws://192.168.0.13:8080");
     // Establish WebSocket connection
     setSocket(ws);
 
