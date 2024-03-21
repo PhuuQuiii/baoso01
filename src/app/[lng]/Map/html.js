@@ -1,10 +1,10 @@
 //"use client";
-import React from 'react';
+import React from "react";
 import { myFunction } from "./onlick";
 import {} from "./path";
 const html = () => {
   return (
-    <div className="">
+    <div style={{ backgroundColor: "#E7EDFC" }}>
       {/* <iframe
         className="w-full h-full"
         src="/index.html"
@@ -1623,4 +1623,5 @@ const html = () => {
       </>
     </div>
   );
-}
+};
+export default html;
