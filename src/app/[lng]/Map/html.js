@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 "use client";
 import React from "react";
 export default function html() {
   return (
     <div style={{ backgroundColor: "#E7EDFC" }}>
+=======
+//"use client";
+import React from 'react';
+import { myFunction } from "./onlick";
+import {} from "./path";
+const html = () => {
+  return (
+    <div className="">
+>>>>>>> bcb1bf13af13f0a38ffc871867ed01873ab989e9
       {/* <iframe
         className="w-full h-full"
         src="/index.html"
