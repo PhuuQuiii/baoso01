@@ -15,9 +15,6 @@ import { ICheckin_TN,ICheckin_TN1,ICONCheckin_TN, ICONCheckin_TN1, ICONCheckin_T
 import html from "./html";
 const page = (context) => {
   console.log(context.searchParams.id);
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
   
   useEffect(() => {
     if (context.searchParams.id === "ICheckin_TN") {

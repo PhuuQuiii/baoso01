@@ -1,11 +1,10 @@
-"use client";
-import React from 'react'
+//"use client";
+import React from 'react';
+import { myFunction } from "./onlick";
+import {} from "./path";
 const html = () => {
   return (
-
-
-
-    <div className="flex items-center justify-center h-screen">
+    <div className="">
       {/* <iframe
         className="w-full h-full"
         src="/index.html"
@@ -40,7 +39,7 @@ const html = () => {
         <header className="btn-group">
           <div className="dropdown" style={{ padding: 0 }}>
             <button
-              onclick="myFunction()"
+              onclick={myFunction}
               className="dropbtn"
               style={{ marginRight: 30 }}
             >
