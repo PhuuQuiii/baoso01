@@ -1545,29 +1545,5 @@ window.onclick = function (event) {
   }
 };
 
-window.onload = () => {
-  console.log(window.location)
-  // if (getParameterByName("id") === "ahihi") {
-    $("#Robot").finish();
-    coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
-    $("#DD26").show().addClass("ddcolorbf");
-    $("#DD17").show().addClass("ddcolorbf");
-    $("#DD36").show().addClass("ddcolorbf");
-    $("#Robot").delay(1000).animate({ y: 680 }, 3000);
-    $("#Robot").animate({ x: 1093 }, 4000);
-    $("#Robot").animate({ y: 400 }, 3000);
-    $("#Robot").delay(10000).animate({ y: 680 }, 3000);
-    $("#Robot").animate({ y: 680 }, 3000);
-    $("#Robot").animate({ x: 690 }, 4000);
-    $("#Robot").animate({ y: 885 }, 3000);
-    $("#DD26").delay(38000).hide("ddcolorbf");
-    $("#DD17").delay(38000).hide("ddcolorbf");
-    $("#DD36").delay(38000).hide("ddcolorbf");
-  // }
-};
 
 

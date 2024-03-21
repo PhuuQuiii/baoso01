@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import $ from "jquery";
 import { coloraf } from "./coloraf";
 

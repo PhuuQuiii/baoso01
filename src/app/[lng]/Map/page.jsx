@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import $ from "jquery";
 import { ICheckin_TN,ICheckin_TN1,ICONCheckin_TN, ICONCheckin_TN1, ICONCheckin_TN2,ICONCheckin_TN3, ICheckin_QT, ICheckin_QT1,
   ICONCheckin_QT,ICONCheckin_QT1,ICONCheckin_QT2,ICONCheckin_QT3,ITolet_TN1,ICONIToletTN1,
@@ -11,9 +11,8 @@ import { ICheckin_TN,ICheckin_TN1,ICONCheckin_TN, ICONCheckin_TN1, ICONCheckin_T
   ICONGateTN1,IRestaurant1
   } from "./component";
 
-// import header from "./header";
 import html from "./html";
-const page = (context) => {
+const page = async (context) => {
   console.log(context.searchParams.id);
   function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -188,6 +187,7 @@ const page = (context) => {
     else if (context.searchParams.id === "ICONGateTN1"){
       ICONGateTN1()
     }
+    
   });
   return (
     html()

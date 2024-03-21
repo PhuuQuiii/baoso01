@@ -1,11 +1,8 @@
 "use client";
-import React from 'react'
-const html = () => {
+import React from "react";
+export default function html() {
   return (
-
-
-
-    <div className="flex items-center justify-center h-screen">
+    <div style={{ backgroundColor: "#E7EDFC" }}>
       {/* <iframe
         className="w-full h-full"
         src="/index.html"
@@ -40,7 +37,7 @@ const html = () => {
         <header className="btn-group">
           <div className="dropdown" style={{ padding: 0 }}>
             <button
-              onclick="myFunction()"
+              onclick={myFunction}
               className="dropbtn"
               style={{ marginRight: 30 }}
             >
@@ -114,8 +111,8 @@ const html = () => {
         <div style={{ backgroundColor: "#E7EDFC", textAlign: "center" }}>
           <svg
             version="1.1"
-            width="95%"
-            height="900px"
+            width="100%"
+            height="935px"
             viewBox="0 0 1860 945"
             xmlns="http://www.w3.org/2000/svg"
             style={{ overflow: "auto" }}
@@ -1623,7 +1620,5 @@ const html = () => {
         </div>
       </>
     </div>
-  )
+  );
 }
-
-export default html
