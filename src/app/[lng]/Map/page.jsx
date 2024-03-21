@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import $ from "jquery";
 import { ICheckin_TN,ICheckin_TN1,ICONCheckin_TN, ICONCheckin_TN1, ICONCheckin_TN2,ICONCheckin_TN3, ICheckin_QT, ICheckin_QT1,
   ICONCheckin_QT,ICONCheckin_QT1,ICONCheckin_QT2,ICONCheckin_QT3,ITolet_TN1,ICONIToletTN1,
@@ -12,7 +12,7 @@ import { ICheckin_TN,ICheckin_TN1,ICONCheckin_TN, ICONCheckin_TN1, ICONCheckin_T
   } from "./component";
 
 import html from "./html";
-const page = async (context) => {
+const page = (context) => {
   console.log(context.searchParams.id);
   
   useEffect(() => {
