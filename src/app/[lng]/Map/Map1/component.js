@@ -5,10 +5,6 @@ import { coloraf } from "./coloraf";
 export function ICheckin_TN() {
   $("#Robot").finish();
   coloraf();
-  for (var i = 1; i <= 49; i++) {
-    var a = "#DD" + i.toString();
-    $(a).removeClass("ddcolorbf");
-  }
   $("#DD26").show().addClass("ddcolorbf");
   $("#DD17").show().addClass("ddcolorbf");
   $("#DD36").show().addClass("ddcolorbf");
@@ -26,10 +22,6 @@ export function ICheckin_TN() {
 export function ICheckin_TN1() {
   $("#Robot").finish();
   coloraf();
-  for (var i = 1; i <= 49; i++) {
-    var a = "#DD" + i.toString();
-    $(a).removeClass("ddcolorbf");
-  }
   $("#DD26").show().addClass("ddcolorbf");
   $("#DD17").show().addClass("ddcolorbf");
   $("#DD36").show().addClass("ddcolorbf");
@@ -47,10 +39,6 @@ export function ICheckin_TN1() {
 export function ICONCheckin_TN() {
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD36").show().addClass("ddcolorbf");
@@ -68,10 +56,6 @@ export function ICONCheckin_TN() {
 export function ICONCheckin_TN1() {
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD36").show().addClass("ddcolorbf");
@@ -89,10 +73,6 @@ export function ICONCheckin_TN1() {
 export function ICONCheckin_TN2() {
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD36").show().addClass("ddcolorbf");
@@ -110,10 +90,6 @@ export function ICONCheckin_TN2() {
 export function ICONCheckin_TN3() {
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD36").show().addClass("ddcolorbf");
@@ -131,10 +107,6 @@ export function ICONCheckin_TN3() {
 export function ICheckin_QT(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -152,10 +124,6 @@ export function ICheckin_QT(){
 export function ICheckin_QT1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -173,10 +141,6 @@ export function ICheckin_QT1(){
 export function ICONCheckin_QT(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -194,10 +158,6 @@ export function ICONCheckin_QT(){
 export function ICONCheckin_QT1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -215,10 +175,6 @@ export function ICONCheckin_QT1(){
 export function ICONCheckin_QT2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -236,10 +192,6 @@ export function ICONCheckin_QT2(){
 export function ICONCheckin_QT3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD30").show().addClass("ddcolorbf");
@@ -256,10 +208,6 @@ export function ICONCheckin_QT3(){
 }
 export function ITolet_TN1(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD1").show().addClass("ddcolorbf");
 $("#DD32").show().addClass("ddcolorbf");
@@ -280,10 +228,6 @@ $("#DD7").delay(42000).hide("ddcolorbf");
 }
 export function ICONIToletTN1(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD1").show().addClass("ddcolorbf");
 $("#DD32").show().addClass("ddcolorbf");
@@ -304,10 +248,6 @@ $("#DD7").delay(42000).hide("ddcolorbf");
 }
 export function ITolet_TN3(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD13").show().addClass("ddcolorbf");
@@ -328,10 +268,6 @@ $("#DD47").delay(42000).hide("ddcolorbf");
 }
 export function ICONIToletTN3(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD13").show().addClass("ddcolorbf");
@@ -352,10 +288,6 @@ $("#DD47").delay(42000).hide("ddcolorbf");
 }
 export function ITolet_QT1(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -376,10 +308,6 @@ $("#DD6").delay(42000).hide("ddcolorbf");
 }
 export function ICONIToletQT1(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -400,10 +328,6 @@ $("#DD6").delay(42000).hide("ddcolorbf");
 }
 export function ISmokingTN(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD47").show().addClass("ddcolorbf");
@@ -424,10 +348,6 @@ $("#DD12").delay(42000).hide("ddcolorbf");
 }
 export function ICONISmokingTN(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD47").show().addClass("ddcolorbf");
@@ -448,10 +368,6 @@ $("#DD12").delay(42000).hide("ddcolorbf");
 }
 export function ISmokingQT(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -472,10 +388,6 @@ $("#DD5").delay(42000).hide("ddcolorbf");
 }
 export function ICONISmokingQT(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -496,10 +408,6 @@ $("#DD5").delay(42000).hide("ddcolorbf");
 }
 export function ISCC(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD36").show().addClass("ddcolorbf");
@@ -520,10 +428,6 @@ $("#DD10").delay(42000).hide("ddcolorbf");
 }
 export function ICONISCC(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD36").show().addClass("ddcolorbf");
@@ -544,10 +448,6 @@ $("#DD10").delay(42000).hide("ddcolorbf");
 }
 export function ISCCQT(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -572,10 +472,6 @@ $("#DD37").delay(48000).hide("ddcolorbf");
 }
 export function ICONISCCQT(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD31").show().addClass("ddcolorbf");
@@ -600,10 +496,6 @@ $("#DD37").delay(48000).hide("ddcolorbf");
 }
 export function IECC(){ $("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD30").show().addClass("ddcolorbf");
@@ -624,10 +516,6 @@ $("#DD3").delay(42000).hide("ddcolorbf");
 }
 export function ICONIECC(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD45").show().addClass("ddcolorbf");
 $("#DD30").show().addClass("ddcolorbf");
@@ -648,10 +536,6 @@ $("#DD3").delay(42000).hide("ddcolorbf");
 }
 export function IMedical(){ $("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD36").show().addClass("ddcolorbf");
@@ -676,10 +560,6 @@ $("#DD41").delay(48000).hide("ddcolorbf");
 }
 export function ICONIMedical(){$("#Robot").finish();
 coloraf();
-for (var i = 1; i <= 49; i++) {
-  var a = "#DD" + i.toString();
-  $(a).removeClass("ddcolorbf");
-}
 $("#DD26").show().addClass("ddcolorbf");
 $("#DD17").show().addClass("ddcolorbf");
 $("#DD36").show().addClass("ddcolorbf");
@@ -705,10 +585,6 @@ $("#DD41").delay(48000).hide("ddcolorbf");
 export function IRestaurant1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD2").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -721,10 +597,6 @@ export function IRestaurant1(){
 export function ICONIDRestaurant1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD2").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -737,10 +609,6 @@ export function ICONIDRestaurant1(){
 export function ICONIRestaurant1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD2").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -753,10 +621,6 @@ export function ICONIRestaurant1(){
 export function IRestaurant2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD1").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -769,10 +633,6 @@ export function IRestaurant2(){
 export function ICONIDRestaurant2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD1").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -785,10 +645,6 @@ export function ICONIDRestaurant2(){
 export function ICONIRestaurant2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD1").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 680 }, 3000);
@@ -801,10 +657,6 @@ export function ICONIRestaurant2(){
 export function IRestaurant3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD11").show().addClass("ddcolorbf");
@@ -825,10 +677,6 @@ export function IRestaurant3(){
 export function ICONIDRestaurant3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD11").show().addClass("ddcolorbf");
@@ -849,10 +697,6 @@ export function ICONIDRestaurant3(){
 export function ICONIRestaurant3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD11").show().addClass("ddcolorbf");
@@ -873,10 +717,6 @@ export function ICONIRestaurant3(){
 export function ICONAC1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD8").show().addClass("ddcolorbf");
     $("#DD33").show().addClass("ddcolorbf");
@@ -893,10 +733,6 @@ export function ICONAC1(){
 export function ICONAC2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD9").show().addClass("ddcolorbf");
     $("#DD34").show().addClass("ddcolorbf");
@@ -913,10 +749,6 @@ export function ICONAC2(){
 export function ICONAC3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD16").show().addClass("ddcolorbf");
     $("#DD35").show().addClass("ddcolorbf");
@@ -933,10 +765,6 @@ export function ICONAC3(){
 export function IStair1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD25").show().addClass("ddcolorbf");
     $("#DD27").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 850 }, 3000);
@@ -949,10 +777,6 @@ export function IStair1(){
 export function ICONIStair1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD25").show().addClass("ddcolorbf");
     $("#DD27").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 850 }, 3000);
@@ -965,10 +789,6 @@ export function ICONIStair1(){
 export function IStair2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD28").show().addClass("ddcolorbf");
     $("#DD24").show().addClass("ddcolorbf");
     $("#DD29").show().addClass("ddcolorbf");
@@ -986,10 +806,6 @@ export function IStair2(){
 export function ICONIStair2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD28").show().addClass("ddcolorbf");
     $("#DD24").show().addClass("ddcolorbf");
     $("#DD29").show().addClass("ddcolorbf");
@@ -1007,10 +823,6 @@ export function ICONIStair2(){
 export function IElevatorSC(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD28").show().addClass("ddcolorbf");
     $("#DD23").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 730 }, 3000);
@@ -1023,10 +835,6 @@ export function IElevatorSC(){
 export function ICONIElevatorSC(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD28").show().addClass("ddcolorbf");
     $("#DD23").show().addClass("ddcolorbf");
     $("#Robot").delay(1000).animate({ y: 730 }, 3000);
@@ -1039,10 +847,6 @@ export function ICONIElevatorSC(){
 export function ICONGateQT1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD31").show().addClass("ddcolorbf");
@@ -1075,10 +879,6 @@ export function ICONGateQT1(){
 export function ICONGateQT3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD31").show().addClass("ddcolorbf");
@@ -1103,10 +903,6 @@ export function ICONGateQT3(){
 export function ICONGateQT2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD31").show().addClass("ddcolorbf");
@@ -1135,10 +931,6 @@ export function ICONGateQT2(){
 export function ICONGateQT4(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD45").show().addClass("ddcolorbf");
     $("#DD31").show().addClass("ddcolorbf");
@@ -1167,10 +959,6 @@ export function ICONGateQT4(){
 export function ICONGateTN3(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD47").show().addClass("ddcolorbf");
@@ -1195,10 +983,6 @@ export function ICONGateTN3(){
 export function ICONGateTN2(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD47").show().addClass("ddcolorbf");
@@ -1227,10 +1011,6 @@ export function ICONGateTN2(){
 export function ICONGateTN4(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD47").show().addClass("ddcolorbf");
@@ -1259,10 +1039,6 @@ export function ICONGateTN4(){
 export function ICONGateTN1(){
     $("#Robot").finish();
     coloraf();
-    for (var i = 1; i <= 49; i++) {
-      var a = "#DD" + i.toString();
-      $(a).removeClass("ddcolorbf");
-    }
     $("#DD26").show().addClass("ddcolorbf");
     $("#DD17").show().addClass("ddcolorbf");
     $("#DD47").show().addClass("ddcolorbf");
@@ -1292,4 +1068,3 @@ export function ICONGateTN1(){
     $("#DD14").delay(61000).hide("ddcolorbf");
     $("#DD49").delay(61000).hide("ddcolorbf");
 }
-

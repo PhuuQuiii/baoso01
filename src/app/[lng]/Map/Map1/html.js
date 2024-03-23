@@ -4,7 +4,6 @@ import { myFunction } from "./onlick";
 import {} from "./path";
 const html = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
     <div style={{ backgroundColor: "#E7EDFC" }}>
       {/* <iframe
         className="w-full h-full"
@@ -40,8 +39,8 @@ const html = () => {
         <header className="btn-group">
           <div className="dropdown" style={{ padding: 0 }}>
             <button
-              onclick={myFunction}
-              className="dropbtn"
+              onClick = {myFunction}
+              className="dropbtn dropdown"
               style={{ marginRight: 30 }}
             >
               <i className="fa fa-bars" />
@@ -104,7 +103,7 @@ const html = () => {
             </div>
           </div>
           <div>
-            <a href="index2.html">
+            <a href="MapG">
               <button className="dropbtn" style={{ marginRight: 30 }}>
                 <i className="fa-solid fa-g" style={{ color: "#ffffff" }} />
               </button>
@@ -1622,7 +1621,6 @@ const html = () => {
           </svg>
         </div>
       </>
-    </div>
     </div>
   )
 }

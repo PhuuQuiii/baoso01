@@ -2,6 +2,10 @@
 import $ from "jquery";
 
 export function coloraf() {
+    for (var i = 1; i <= 49; i++) {
+      var a = "#DD" + i.toString();
+      $(a).removeClass("ddcolorbf");
+    }
     $("#ICheckin-TN").css("fill", "YELLOW");
     $("#ICheckin-TN1").css("fill", "YELLOW");
     $("#ITolet-QT1").css("fill", "#E0E5FF");

@@ -20,7 +20,7 @@ export default async function Page({ params: { lng } }) {
             {t("VOICE")} {/* Liên kết tới trang Voice */}
           </button>
         </Link>
-        <Link href={`/${lng}/Map`}>
+        <Link href={`/${lng}/Map/Map1`}>
           <button className="bg-blue-500 text-white text-4xl py-4 px-6 w-full h-40 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
             {t("MAP")} {/* Liên kết tới trang Map */}
           </button>

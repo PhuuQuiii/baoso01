@@ -6,7 +6,7 @@ window.onclick = function(event) {
   var dropdown = document.getElementById('myDropdown');
 
   // Kiểm tra xem phần tử được nhấp có className là "dropbtn" hay không
-  if (event.target.matches('.dropbtn')) {
+  if (event.target.matches('.dropdown')) {
     // Toggle class "show" của dropdown
     dropdown.classList.toggle("show");
   } else {
