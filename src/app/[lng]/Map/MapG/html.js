@@ -83,8 +83,8 @@ const html = () => {
         <svg 
           version="1.1" 
           width="100%" 
-          height="935px" 
-          viewBox="0 0 1860 945" 
+          height="1080px" 
+          viewBox="0 0 1860 1080" 
           xmlns="http://www.w3.org/2000/svg" 
           style={{overflow: "auto"}}
         >
