@@ -15,7 +15,7 @@ const Page = ({ params: { lng } }) => {
   const [socket, setSocket] = useState(null); // State for WebSocket
 
   //mac dinh chuyen qua map
-  var url = "/" + lng + "/Map?id=ICONISmokingQT";
+  var url = "/" + lng + "/Map/Map1?id=ICONISmokingQT";
   window.location = url;
 
   if (screenLocation === 1) {
