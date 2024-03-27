@@ -34,9 +34,9 @@ export default async function Page({ params: { lng } }) {
             >
               <path d="M43.389 38.269L29.222 61.34a1.152 1.152 0 01-1.064.615H20.99a1.219 1.219 0 01-1.007-.5 1.324 1.324 0 01-.2-1.149L26.2 38.27H11.7l-3.947 6.919a1.209 1.209 0 01-1.092.644H1.285a1.234 1.234 0 01-.895-.392l-.057-.056a1.427 1.427 0 01-.308-1.036L1.789 32 .025 19.656a1.182 1.182 0 01.281-1.009 1.356 1.356 0 01.951-.448l5.4-.027a1.227 1.227 0 01.9.391.85.85 0 01.2.252L11.7 25.73h14.5L19.792 3.7a1.324 1.324 0 01.2-1.149A1.219 1.219 0 0121 2.045h7.168a1.152 1.152 0 011.064.615l14.162 23.071h8.959a17.287 17.287 0 017.839 1.791Q63.777 29.315 64 32q-.224 2.685-3.807 4.478a17.282 17.282 0 01-7.84 1.793h-9.016z" />
             </svg>
-            <h1 className="ml-2 uppercase font-bold text-gray-500">
+            <h3 className="ml-2 uppercase font-bold text-gray-500">
               {t("chuyen_bay.DEPARTURE")}
-            </h1>
+            </h3>
             <p className="ml-2 font-normal text-gray-500">
               {t(`chuyen_bay.khoi_hanh_${i}.thoi_gian`) +
                 " " +
@@ -110,7 +110,7 @@ export default async function Page({ params: { lng } }) {
             </div>
           </div>
           <div className="mt-4 bg-gray-100 flex flex-row flex-wrap md:flex-nowrap justify-between items-baseline">
-            <div className="flex mx-6 py-4 flex-row flex-wrap">
+            <div className="flex mx-6 py-4 flex-row flex-wrap justify-center items-center ">
               <svg
                 className="w-12 h-10 p-2 mx-2 self-center bg-gray-400 rounded-full fill-current text-white"
                 viewBox="0 0 64 64"
@@ -128,15 +128,17 @@ export default async function Page({ params: { lng } }) {
                 </p>
               </div>
               <button
-                className="w-32 h-11 rounded flex border-solid border bg-white mx-2 justify-center place-items-center"
-                href="" onClick={(e) => handleLogoClick(e, '/')}
+                className="w-32 h-16 rounded flex border-solid border bg-white mx-2 justify-center place-items-center"
+                href="#"
               >
-                <div className="">
-                  <p>{t("chuyen_bay.book")}</p>
+                <div className="text-center">
+                  <p className="flex justify-center items-center text-lg">
+                    {t("chuyen_bay.book")}
+                  </p>
                 </div>
               </button>
             </div>
-            <div className="md:border-l-2 mx-6 md:border-dotted flex flex-row py-4 mr-6 flex-wrap">
+            <div className="md:border-l-2 mx-6 md:border-dotted flex flex-row py-4 mr-6 flex-wrap justify-center items-center ">
               <svg
                 className="w-12 h-10 p-2 mx-2 self-center bg-green-800 rounded-full fill-current text-white"
                 viewBox="0 0 64 64"
@@ -154,9 +156,11 @@ export default async function Page({ params: { lng } }) {
                   {t("chuyen_bay.Price_per_adult")}
                 </p>
               </div>
-              <button className="w-32 h-11 rounded flex border-solid border text-white bg-green-800 mx-2 justify-center place-items-center">
-                <div className="">
-                  <p>{t("chuyen_bay.book")}</p>
+              <button className="w-32 h-16 rounded flex border-solid border text-white bg-green-800 mx-2 justify-center place-items-center">
+                <div className="text-center">
+                  <p className="flex justify-center items-center text-lg">
+                    {t("chuyen_bay.book")}
+                  </p>
                 </div>
               </button>
             </div>
@@ -166,4 +170,15 @@ export default async function Page({ params: { lng } }) {
     );
   }
   return <>{contentArray}</>;
+}
+
+{
+  /* <button
+                className="w-32 h-11 rounded flex border-solid border bg-white mx-2 justify-center place-items-center"
+                href="" onClick={(e) => handleLogoClick(e, '/')}
+              >
+                <div className="">
+                  <p>{t("chuyen_bay.book")}</p>
+                </div>
+              </button> */
 }
